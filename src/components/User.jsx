@@ -1,4 +1,8 @@
+//=======================| import |=======================//
+
 import React from 'react'
+
+//=======================| function |=======================//
 
 function User(props) {
     const {userInfo} = props
@@ -12,5 +16,7 @@ function User(props) {
     </div>
   )
 }
+
+//=======================| export |=======================//
 
 export default User

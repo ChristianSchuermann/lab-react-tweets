@@ -1,5 +1,9 @@
+//=======================| import |=======================//
+
 import "./App.css";
 import Tweet from "./components/Tweet";
+
+//=======================| Tweets |=======================//
 
 const tweetsArray = [
   {
@@ -16,7 +20,7 @@ const tweetsArray = [
     user: {
       name: "Gowasu",
       image: "https://i.pinimg.com/736x/ab/91/c5/ab91c53fd9490a29c6564901917289bb.jpg",
-      handle: "supreme_kai_Gowasu",
+      handle: "supreme_kai_gowasu",
     },
     timestamp: "30mins ago",
     message:
@@ -30,7 +34,7 @@ const tweetsArray = [
     },
     timestamp: "1h ago",
     message:
-      "Don't take it personally @offcial_karaot... Destruction is my job, after all.",
+      "Don't take it personally @official_karaot... Destruction is my job, after all.",
   },
   {
     user: {
@@ -51,6 +55,26 @@ const tweetsArray = [
     timestamp: "2h ago",
     message:
       "sometimes. the human presses their noggin against mine. to figure out what i’m thinking. so i just think really hard. about how much i love them. and hope they figure it out",
+  },
+  {
+    user: {
+      name: "Vegeta",
+      image: "http://pm1.narvii.com/7046/a0af97c8c44d1370fb0aa48eb8dc514a904c901cr1-1280-916v2_uhq.jpg",
+      handle: "prince_vegeta",
+    },
+    timestamp: "2h ago",
+    message:
+      "Every Breath You Take Is An Assault On My Honor. @true_villain",
+  },
+  {
+    user: {
+      name: "Frieza",
+      image: "https://wiki.hardedge.org/images/thumb/b/b7/DBFZ_Frieza_Portrait.png/450px-DBFZ_Frieza_Portrait.png",
+      handle: "true_villain",
+    },
+    timestamp: "3h ago",
+    message:
+      "All hail Vegeta, Prince Of No One! @prince_vegeta",
   },
   {
     user: {
@@ -94,6 +118,8 @@ const tweetsArray = [
   },
 ];
 
+//=======================| function |=======================//
+
 function App() {
   return (
     <div className="App">
@@ -103,5 +129,7 @@ function App() {
     </div>
   );
 }
+
+//=======================| export |=======================//
 
 export default App;

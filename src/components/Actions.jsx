@@ -1,4 +1,8 @@
+//=======================| import |=======================//
+
 import React from 'react'
+
+//=======================| function |=======================//
 
 function Actions() {
   return (
@@ -11,5 +15,7 @@ function Actions() {
     </div>
   )
 }
+
+//=======================| export |=======================//
 
 export default Actions

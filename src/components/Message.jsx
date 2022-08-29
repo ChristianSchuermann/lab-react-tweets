@@ -1,4 +1,8 @@
+//=======================| import |=======================//
+
 import React from 'react'
+
+//=======================| function |=======================//
 
 function Message(props) {
     console.log(props)
@@ -9,5 +13,7 @@ function Message(props) {
         </p>
   )
 }
+
+//=======================| export |=======================//
 
 export default Message
